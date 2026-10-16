@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "source-watch-core"
+version = "0.1.0"
+description = "Offline, dependency-free observation and change tracking core for monitored sources"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+keywords = ["monitoring", "changes", "notifications", "feeds"]
+
+[tool.setuptools.packages.find]
+include = ["source_watch*"]

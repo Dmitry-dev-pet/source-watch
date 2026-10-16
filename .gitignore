@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.sqlite*
+*.db
+.env
+.env.*
+!.env.example
+private/
+secrets/
+*.session
+*.token
+.DS_Store
+build/
+dist/
+*.egg-info/
